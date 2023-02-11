@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    
+
+}
+.package{
+    padding-left: calc(50% - 960px);
+    padding-right: calc(50% - 960px);
+}
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(font/Gilroy-Bold.ttf);
+}
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url(font/Gilroy-Medium.ttf);
+}
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: url(font/Gilroy-Semibold.ttf);
+}
+.our_logo{
+    margin-top: 45px;
+    margin-left: 10px;
+}
+.link{
+    margin-top: 40px;
+    margin-left: 350px;
+    
+}
+a {
+    display: inline;
+    margin: 10px;
+  }
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    
+}
+.header__link1{
+    
+    text-decoration: none;
+    font-family: 'Gilroy-SemiBold';
+    width: 533px;
+    height: 17px;
+    justify-content: space-around;
+   
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    color: #F25822;
+    
+}
+.header__link2{
+    
+    text-decoration: none;
+    font-family: 'Gilroy-SemiBold';
+    width: 533px;
+    height: 17px;
+    justify-content: space-around;
+   
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    color: black;
+    
+}
+
+.top_content{
+    margin-top: 81px;
+    margin-bottom: 131px ;
+    display: flex;
+    margin-top: 81px;
+    margin-bottom: 131px;
+    /* justify-content: center; */
+}
+
+.title{
+    margin-bottom: 25px;
+    
+    width: 522px;
+    height: 222px;
+
+    font-family: 'Gilroy-Bold';
+    font-size: 60px;
+    line-height: 70px;
+
+    color: #000000;
+}
+.sub_title{
+    margin-bottom: 32px;
+    width: 466px;
+    height: 48px;
+
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #888888;
+}
+
+.top_buttons{
+    margin-top: 50px;
+    display: flex;
+    gap: 72px;
+    align-items: center;
+}
+.button1{
+    width: 69px;
+    height: 19px;
+    background: #F25822;
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    line-height: 18px;
+    border: none;
+    color: #FFFFFF;
+    width: 140px;
+    height: 50px;
+
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+}
+.button2{
+    width: 90px;
+    height: 19px;
+
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    line-height: 10px;
+    border: none;
+    color: #AAAAAA;
+}
+.logos{
+    display: flex;
+    gap: 48px;
+    /* justify-content: space-around; */
+    padding-bottom: 99px;
+}
