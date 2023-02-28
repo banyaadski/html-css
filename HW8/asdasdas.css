@@ -192,7 +192,9 @@ body{
 }
 
 
-.button{
+
+.link_butt{
+    text-decoration: none;
     color: #FF6A6A;
     border: 1px solid #FF6A6A;
 
@@ -202,13 +204,11 @@ body{
     top: 2817.5px;
     border-radius: 0px;
     margin: 0 auto;
-    display: block;
+    display: flex;
     margin-top: 43px;
     margin-bottom: 40px;
-}
-.link_butt{
-    text-decoration: none;
-    color: #FF6A6A;
+    justify-content: center;
+    align-items: center;
 }
 
 .Additional_Information{
@@ -258,11 +258,16 @@ body{
     color: #FBFBFB;
     margin-bottom: 104px;
 }
-.other_info{
+.other_info {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    height: 448px;
+    background-image: url(img/feedback.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .feedback_text{
@@ -300,6 +305,43 @@ body{
     width: 1146px;
     height: 337px;
 }
+.mail{
+    background-color: #E1E1E1;
+    text-decoration: none;
+    border-radius: 25px 0 0 25px;
+    border: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #222224;
+    max-width: 256px;
+    padding: 8px 64px 8px 22px;
+}
+.subscribbut{
+    background-color: #F16D7F;
+    text-decoration: none;
+    border-radius: 0 25px 25px 0;
+    border: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+    max-width: 256px;
+    padding: 8px 13px 8px 13px;
+
+}
+.buttonsSubs{
+    display: flex;
+    justify-content: center;
+}
 /* .other_info{
     position: absolute;
 }
@@ -321,6 +363,7 @@ body{
 
     color: #FBFBFB;
 }
+
 .pick_footer{
     width: 30px;
     height: 30px;
@@ -328,6 +371,13 @@ body{
 }
 .pick_footer:hover{
     color: blue;
+}
+
+.networks{
+    
+    display: flex;
+    background-color: white;
+    gap: 20px;
 }
 
 
@@ -425,7 +475,7 @@ body{
         flex-wrap: wrap;
         flex-direction: row;
     }
-    }
+    
     .button{
         margin-bottom: 85px;
         margin-top: 41px;
